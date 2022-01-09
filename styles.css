@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+}
+.header {
+    padding: 2rem;
+    background-color: lightgreen;
+    height: 50px;
+    font-size: 1.9rem;
+   
+}
+.header input{
+    position: relative;
+    top:-2rem;939
+    float:right;
+    height: 40px;
+    padding: 0px 1rem;
+    
+}
