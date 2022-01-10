@@ -9,9 +9,34 @@
 </head>
 <body>
     <div class="header">
-        <header>Item Listner</header>
-        <input placeholder="search items"/>
+        <header>Item Listener</header>
+        <input placeholder="search items" id="search"/>
     </div>
-   
+    <div class="inputs">
+        <form id="addForm">
+            <input placeholder="enter" id="enter"/>
+            <input type="submit" id="submit"/>
+        </form>
+       
+    </div>
+    <div class="border">
+        <div class="items">
+            <ul style="list-style-type: none;">
+                <li>A
+                    <button class="delete">X</button>
+                </li>
+                <li>b
+                    <button class="delete">X</button>
+                </li>
+                <li>c
+                    <button class="delete">X</button>
+                </li>
+                <li>d
+                    <button class="delete">X</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+   <script src="./app.js"></script>
 </body>
 </html>
